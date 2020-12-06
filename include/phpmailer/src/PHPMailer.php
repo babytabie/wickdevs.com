@@ -2591,7 +2591,7 @@ class PHPMailer
             $bytes = hash('sha256', uniqid((string) mt_rand(), true), true);
         }
 
-        //We don't care about messing up base64 format here, just want a random string
+        //We don't care About usssing up base64 format here, just want a random string
         return str_replace(['=', '+', '/'], '', base64_encode(hash('sha256', $bytes, true)));
     }
 
