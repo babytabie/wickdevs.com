@@ -1,1 +1,4 @@
 DirectoryIndex wickdevs.html
+RewriteEngine On 
+RewriteRule ^index.html$ / [L,R=301]
+RewriteRule ^([a-zA-z0-9]+).html$ /$1   [L,R=301]
