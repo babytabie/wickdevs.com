@@ -1,3 +1,1 @@
 RewriteEngine on
-DirectoryIndex wickdevs.html
-RewriteRule wickdevs.html /
